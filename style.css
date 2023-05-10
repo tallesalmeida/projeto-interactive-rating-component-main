@@ -1,0 +1,138 @@
+/*## Colors
+
+### Primary
+
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+- Weights: 400, 700
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass';
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+img {
+    width: 15px;
+}
+
+.img {
+    background-color: hsl(200, 18%, 16%);
+    width: 45px;
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 350px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 25px;
+    padding: 28px;
+}
+
+.texto {
+    margin-top: 20px;
+}
+
+.texto > h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.texto > p {
+    color: hsl(216, 12%, 54%);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.rating {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating > button {
+    background-color: hsl(200, 18%, 16%);
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rating > button:hover {
+    background-color: hsl(25, 97%, 53%);
+    transition: all 0.5s;
+}
+
+.rating > button:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.container > button {
+    margin-top: 25px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    padding: 12px;
+    border-radius: 35px;
+    text-transform: uppercase;
+    color: white;
+    width: 99%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container > button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: all 0.5s;
+}
+
+.container2 {
+    display: none;
+}
