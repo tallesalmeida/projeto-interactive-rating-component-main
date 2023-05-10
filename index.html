@@ -11,7 +11,7 @@
 
   <!-- Rating state start -->
 
-  <div class="container">
+  <div id="container">
     <div class="img"><img src="images/icon-star.svg" alt="Star icon"></div>
     <div class="texto">
       <h1>How did we do?</h1>
@@ -27,18 +27,25 @@
       <button id="4" class="btn" name="4" value="4" onclick="avaliar()">4</button>
       <button id="5" class="btn" name="5" value="5" onclick="avaliar()">5</button>
     </div>
-    <button>Submit</button>
+    <a href="#" onclick="submit()">Submit</a>
   </div>
  
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
 
-  <div class="container2">
-    You selected <!-- Add rating here --> out of 5
-    Thank you!
-    We appreciate you taking the time to give a rating. If you ever need more support,
-    don’t hesitate to get in touch!
+  <div id="container2">
+    <div class="img-container2"><img src="/images/illustration-thank-you.svg" alt=""></div>
+    <div class="result">
+      <p>You selected <!-- Add rating here --> out of 5</p>
+    </div>
+    <div class="texto-container2">
+      <h1>Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!
+      </p>
+    </div>
   </div>
 
   <!-- Thank you state end -->

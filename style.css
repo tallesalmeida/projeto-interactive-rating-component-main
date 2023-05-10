@@ -56,7 +56,7 @@ img {
     justify-content: center;
 }
 
-.container {
+#container {
     max-width: 350px;
     background-color: hsl(213, 19%, 18%);
     border-radius: 25px;
@@ -110,13 +110,14 @@ img {
     background-color: hsl(217, 12%, 63%);
 }
 
-.container > button {
+#container > a {
     margin-top: 25px;
     border: none;
     background-color: hsl(25, 97%, 53%);
     padding: 12px;
     border-radius: 35px;
     text-transform: uppercase;
+    text-decoration: none;
     color: white;
     width: 99%;
     font-weight: 700;
@@ -127,12 +128,67 @@ img {
     cursor: pointer;
 }
 
-.container > button:hover {
+#container > a:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
     transition: all 0.5s;
 }
 
-.container2 {
+#container2 {
     display: none;
 }
+
+/*.img-container2 > img {
+    width: 150px;
+}
+
+.img-container2 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#container2 {
+    max-width: 350px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 25px;
+    padding: 35px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+} 
+
+.result > p {
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(216, 12%, 54%, 0.212);
+    border-radius: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 14px;
+}
+
+.texto-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.texto-container2 > h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.texto-container2 > p {
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    font-size: 15.5px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 2px;
+}*/

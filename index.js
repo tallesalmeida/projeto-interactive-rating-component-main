@@ -1,8 +1,13 @@
-/*document.querySelectorAll('button').forEach(button => {
+
+document.querySelectorAll('button').forEach(button => {
     button.addEventListener('click', () => {
-        let fired_button = button.value;
-        alert(fired_button);
-        
+        let aval = button.value;
+        alert(aval);
     });
-});*/
+});
+
+function submit() {
+    container.style.display = "none"
+    container2.style.display = "flex"
+}
 
