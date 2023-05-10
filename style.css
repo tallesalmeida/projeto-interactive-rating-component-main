@@ -58,7 +58,7 @@ img {
 
 #container {
     max-width: 350px;
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsla(213, 20%, 18%, 0.534);
     border-radius: 25px;
     padding: 28px;
 }
@@ -138,7 +138,7 @@ img {
     display: none;
 }
 
-/*.img-container2 > img {
+.img-container2 > img {
     width: 150px;
 }
 
@@ -149,20 +149,22 @@ img {
 }
 
 #container2 {
+    flex-direction: column;
     max-width: 350px;
-    background-color: hsl(213, 19%, 18%);
+    background-color: hsla(213, 20%, 18%, 0.534);
     border-radius: 25px;
-    padding: 35px;
+    padding: 30px;
 }
 
 .result {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 } 
 
 .result > p {
-    color: hsl(25, 97%, 53%);
-    background-color: hsla(216, 12%, 54%, 0.212);
+    color: hsla(25, 97%, 53%, 0.712);
+    background-color: hsla(216, 12%, 54%, 0.116);
     border-radius: 17px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -175,7 +177,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .texto-container2 > h1 {
@@ -187,8 +189,8 @@ img {
 .texto-container2 > p {
     text-align: center;
     color: hsl(216, 12%, 54%);
-    font-size: 15.5px;
+    font-size: 12.8px;
     font-weight: 400;
     line-height: 20px;
-    margin-top: 2px;
-}*/
+    margin-top: 10px;
+}
